@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FirstStart" representedClassName="FirstStart" syncable="YES" codeGenerationType="class">
+        <attribute name="isFirst" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="NotesCore" representedClassName="NotesCore" syncable="YES" codeGenerationType="class">
+        <attribute name="noteCore" attributeType="Transformable"/>
+        <attribute name="titleCore" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="FirstStart" positionX="1341" positionY="279" width="128" height="44"/>
+        <element name="NotesCore" positionX="1332.890625" positionY="247.84375" width="128" height="59"/>
+    </elements>
 </model>
